@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PK | Portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="pk.css">
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Neon Particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="logo"><span class="accent">&lt;</span>PK<span class="accent">./&gt;</span></div>
+    <div class="menu-toggle" id="mobile-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero-image-container">
+        <div class="profile-img-wrapper">
+          <div class="profile-placeholder">👾</div>
+          <div class="status-badge">
+            <span class="dot"></span> Available for Freelance
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content fade-in">
+        <h2>Hello, I'm</h2>
+        <h1 class="gradient-text glitch" data-text="PK">PK</h1>
+        <div class="typed-container">
+          <span id="typed-text"></span><span class="typed-cursor">|</span>
+        </div>
+        <p>Freelance UI/UX Designer & Developer crafting immersive, beautiful web experiences through carefully
+          engineered code and user-centric design.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Say Hello <i class="fas fa-paper-plane"></i></a>
+          <a href="#portfolio" class="btn btn-secondary">View Work <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="stats-bar">
+          <div class="stat-item">
+            <strong id="counter-exp">0</strong>
+            <span>Years Exp.</span>
+          </div>
+          <div class="stat-item">
+            <strong id="counter-proj">0</strong>
+            <span>Projects</span>
+          </div>
+          <div class="stat-item">
+            <strong id="counter-clients">0</strong>
+            <span>Clients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid fade-in">
+        <div class="about-text">
+          <p>I'm <strong>PK</strong>, a passionate UI/UX Designer and Frontend Developer based in India. I love
+            transforming ideas into interactive, pixel-perfect digital experiences.</p>
+          <p>With over <strong>2 years of experience</strong>, I specialize in building fast, responsive, and visually
+            striking interfaces that not only look great but also deliver real results.</p>
+          <p>When I'm not designing or coding, I'm exploring new tech, contributing to open source, or sipping chai ☕
+          </p>
+          <div class="about-details">
+            <div class="detail-row">
+              <span>NAME</span><span>PK</span>
+            </div>
+            <div class="detail-row">
+              <span>LOCATION</span><span>India 🇮🇳</span>
+            </div>
+            <div class="detail-row">
+              <span>EMAIL</span><span>abc@gmail.com</span>
+            </div>
+            <div class="detail-row">
+              <span>STATUS</span><span style="color:#00ff88">● Available</span>
+            </div>
+          </div>
+          <div style="margin-top:1.5rem">
+            <a href="#" class="btn btn-primary">Download CV <i class="fas fa-download"></i></a>
+          </div>
+        </div>
+        <div>
+          <p
+            style="font-family:var(--font-display);font-size:0.7rem;letter-spacing:3px;color:var(--neon-purple);margin-bottom:1.5rem;text-transform:uppercase">
+            // What I Do</p>
+          <div class="skills-grid" style="grid-template-columns:1fr 1fr;gap:1rem">
+            <div class="skill-card" style="text-align:center;padding:1.5rem 1rem">
+              <div style="font-size:2rem;margin-bottom:0.5rem">🎨</div>
+              <div style="font-family:var(--font-display);font-size:0.7rem;color:var(--neon-cyan);letter-spacing:1px">
+                UI/UX Design</div>
+            </div>
+            <div class="skill-card" style="text-align:center;padding:1.5rem 1rem">
+              <div style="font-size:2rem;margin-bottom:0.5rem">💻</div>
+              <div style="font-family:var(--font-display);font-size:0.7rem;color:var(--neon-cyan);letter-spacing:1px">
+                Web Dev</div>
+            </div>
+            <div class="skill-card" style="text-align:center;padding:1.5rem 1rem">
+              <div style="font-size:2rem;margin-bottom:0.5rem">📱</div>
+              <div style="font-family:var(--font-display);font-size:0.7rem;color:var(--neon-cyan);letter-spacing:1px">
+                Responsive</div>
+            </div>
+            <div class="skill-card" style="text-align:center;padding:1.5rem 1rem">
+              <div style="font-size:2rem;margin-bottom:0.5rem">⚡</div>
+              <div style="font-family:var(--font-display);font-size:0.7rem;color:var(--neon-cyan);letter-spacing:1px">
+                Performance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+      <h2 class="section-title">Tech <span>Stack</span></h2>
+      <div class="skills-grid fade-in">
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <span class="skill-icon">🌐</span>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>HTML5</span><span>95%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>CSS3 / SCSS</span><span>90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>JavaScript</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <span class="skill-icon">⚛️</span>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>React</span><span>80%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Bootstrap</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="88"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Tailwind CSS</span><span>75%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="75"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <span class="skill-icon">🎨</span>
+            <h3>Design</h3>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Figma</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Adobe XD</span><span>70%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="70"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Photoshop</span><span>65%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="65"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <span class="skill-icon">🛠️</span>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Git / GitHub</span><span>80%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>VS Code</span><span>95%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Node.js</span><span>60%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="60"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section id="portfolio">
+      <h2 class="section-title">My <span>Work</span></h2>
+      <div class="filter-bar fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="app">App</button>
+      </div>
+      <div class="portfolio-grid fade-in">
+
+        <div class="portfolio-card" data-category="web">
+          <div class="card-img">🛒
+            <div class="card-overlay">
+              <a href="#" class="btn btn-primary" style="font-size:0.65rem;padding:0.6rem 1.2rem">Live Demo <i
+                  class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-secondary" style="font-size:0.65rem;padding:0.6rem 1.2rem">GitHub <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>E-Commerce Platform</h3>
+            <p>Full-featured store with cart, auth & payments</p>
+            <span class="card-tag">HTML</span><span class="card-tag">CSS</span><span class="card-tag">JS</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="design">
+          <div class="card-img">🎨
+            <div class="card-overlay">
+              <a href="#" class="btn btn-primary" style="font-size:0.65rem;padding:0.6rem 1.2rem">View Design <i
+                  class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-secondary" style="font-size:0.65rem;padding:0.6rem 1.2rem">Case Study <i
+                  class="fas fa-book"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Finance App UI</h3>
+            <p>Minimal & elegant dashboard design in Figma</p>
+            <span class="card-tag">Figma</span><span class="card-tag">UI/UX</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="app">
+          <div class="card-img">📋
+            <div class="card-overlay">
+              <a href="#" class="btn btn-primary" style="font-size:0.65rem;padding:0.6rem 1.2rem">Live Demo <i
+                  class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-secondary" style="font-size:0.65rem;padding:0.6rem 1.2rem">GitHub <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Task Manager App</h3>
+            <p>Drag-and-drop kanban with local storage</p>
+            <span class="card-tag">React</span><span class="card-tag">JS</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="web">
+          <div class="card-img">📊
+            <div class="card-overlay">
+              <a href="#" class="btn btn-primary" style="font-size:0.65rem;padding:0.6rem 1.2rem">Live Demo <i
+                  class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-secondary" style="font-size:0.65rem;padding:0.6rem 1.2rem">GitHub <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Analytics Dashboard</h3>
+            <p>Real-time data visualization & reporting</p>
+            <span class="card-tag">HTML</span><span class="card-tag">Chart.js</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="design">
+          <div class="card-img">🏋️
+            <div class="card-overlay">
+              <a href="#" class="btn btn-primary" style="font-size:0.65rem;padding:0.6rem 1.2rem">View Design <i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Fitness Tracker UI</h3>
+            <p>Mobile-first health tracking app design</p>
+            <span class="card-tag">Figma</span><span class="card-tag">Mobile</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="app">
+          <div class="card-img">🌦️
+            <div class="card-overlay">
+              <a href="#" class="btn btn-primary" style="font-size:0.65rem;padding:0.6rem 1.2rem">Live Demo <i
+                  class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-secondary" style="font-size:0.65rem;padding:0.6rem 1.2rem">GitHub <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Weather App</h3>
+            <p>Live weather using OpenWeather API</p>
+            <span class="card-tag">JS</span><span class="card-tag">API</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <h2 class="section-title">Let's <span>Connect</span></h2>
+      <div class="contact-grid fade-in">
+
+        <div class="contact-info">
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email Me</h4>
+              <p>abc@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>India 🇮🇳</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Response Time</h4>
+              <p>Within 24 hours</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/5926_se" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <input type="text" id="formName" placeholder="Your Name" required>
+          <input type="email" id="formEmail" placeholder="Your Email" required>
+          <input type="text" id="formSubject" placeholder="Subject">
+          <textarea id="formMessage" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary" id="submitBtn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <div class="logo"><span class="accent">&lt;</span>PK<span class="accent">./&gt;</span></div>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 PK. Crafted with <span style="color:var(--neon-pink)">♥</span> &amp; neon lights.
+    </p>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" title="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="pk.js"></script>
+</body>
+
+</html>
